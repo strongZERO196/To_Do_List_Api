@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    url: jdbc:mysql://mysql:3306/mysqldb
+    username: user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
